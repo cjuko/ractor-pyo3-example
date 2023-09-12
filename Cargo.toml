@@ -1,0 +1,10 @@
+[workspace]
+members = ["actor-lib", "actor-py"]
+
+[workspace.dependencies]
+tokio = { version = "1", features = ["full"] }
+futures-core = { version = "0.3.28" }
+futures-util = "0.3.28"
+
+ractor = "0.9"
+async-trait = "0.1.68"
